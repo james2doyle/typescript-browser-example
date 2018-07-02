@@ -1,0 +1,18 @@
+{
+  "name": "browser-typescript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server -d --content-base ./public"
+  },
+  "dependencies": {
+    "@types/node": "^10.5.1",
+    "@types/requirejs": "^2.1.31",
+    "ts-loader": "^4.4.2",
+    "typescript": "~2.9.2",
+    "webpack": "^4.14",
+    "webpack-cli": "~3.0.8",
+    "webpack-dev-server": "~3.1.4"
+  }
+}
